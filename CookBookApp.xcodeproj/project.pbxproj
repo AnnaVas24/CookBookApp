@@ -39,6 +39,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51566AC82782436700186A69 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				51C985A82780C4990057B89F /* AppDelegate.swift */,
+				51C985AA2780C4990057B89F /* SceneDelegate.swift */,
+				51C985B62780C49A0057B89F /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		51566AC9278243D700186A69 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				51C985B12780C49A0057B89F /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		51C9859C2780C4990057B89F = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +76,12 @@
 		51C985A72780C4990057B89F /* CookBookApp */ = {
 			isa = PBXGroup;
 			children = (
-				51C985A82780C4990057B89F /* AppDelegate.swift */,
-				51C985AA2780C4990057B89F /* SceneDelegate.swift */,
+				51566AC82782436700186A69 /* App */,
 				51C985AC2780C4990057B89F /* ViewController.swift */,
 				51C985BC278204390057B89F /* RecipeViewController.swift */,
 				51C985AE2780C4990057B89F /* Main.storyboard */,
 				51C985B32780C49A0057B89F /* LaunchScreen.storyboard */,
-				51C985B12780C49A0057B89F /* Assets.xcassets */,
-				51C985B62780C49A0057B89F /* Info.plist */,
+				51566AC9278243D700186A69 /* Resources */,
 			);
 			path = CookBookApp;
 			sourceTree = "<group>";
@@ -294,7 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CookBookApp/Info.plist;
+				INFOPLIST_FILE = CookBookApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -322,7 +338,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CookBookApp/Info.plist;
+				INFOPLIST_FILE = CookBookApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
