@@ -9,6 +9,7 @@ struct Contributor {
     let name: String
     let surname: String
     let emoji: String
+    let position: String
     
     var fullname: String {
         "\(name) \(surname)"
@@ -18,13 +19,16 @@ struct Contributor {
         [
             Contributor(name: "Anna",
                         surname: "Vasichko",
-                        emoji: ""),
+                        emoji: "anya_pic",
+                        position: "Junior"),
             Contributor(name: "Pavel",
                         surname: "Kachan",
-                        emoji: ""),
+                        emoji: "pavel_pic",
+                        position: "Team Lead"),
             Contributor(name: "Roman",
                         surname: "Zhukov",
-                        emoji: "")
+                        emoji: "roman_pic",
+                        position: "Junior")
         ]
     }
 }
