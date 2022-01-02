@@ -16,8 +16,14 @@ struct Contributor {
     
     static func getContributor() -> [Contributor] {
         [
-            Contributor(name: "",
-                        surname: "",
+            Contributor(name: "Anna",
+                        surname: "Vasichko",
+                        emoji: ""),
+            Contributor(name: "Pavel",
+                        surname: "Kachan",
+                        emoji: ""),
+            Contributor(name: "Roman",
+                        surname: "Zhukov",
                         emoji: "")
         ]
     }
