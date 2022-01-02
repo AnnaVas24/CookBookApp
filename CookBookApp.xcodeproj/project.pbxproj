@@ -14,6 +14,7 @@
 		51C985B22780C49A0057B89F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51C985B12780C49A0057B89F /* Assets.xcassets */; };
 		51C985B52780C49A0057B89F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51C985B32780C49A0057B89F /* LaunchScreen.storyboard */; };
 		FCDAB2552781B7D500ADEB24 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDAB2542781B7D500ADEB24 /* Recipe.swift */; };
+		FCF6A36F2782393F0024F0DA /* Сontributor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF6A36E2782393F0024F0DA /* Сontributor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		51C985B42780C49A0057B89F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51C985B62780C49A0057B89F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCDAB2542781B7D500ADEB24 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		FCF6A36E2782393F0024F0DA /* Сontributor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Сontributor.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,18 +63,26 @@
 				FCDAB2572781C81700ADEB24 /* App */,
 				FCDAB2562781C80700ADEB24 /* Models */,
 				51C985AC2780C4990057B89F /* ViewController.swift */,
-				51C985B12780C49A0057B89F /* Assets.xcassets */,
+				FC247303278206960088B132 /* Resources */,
 				51C985AE2780C4990057B89F /* Main.storyboard */,
 				51C985B32780C49A0057B89F /* LaunchScreen.storyboard */,
-				51C985B62780C49A0057B89F /* Info.plist */,
 			);
 			path = CookBookApp;
+			sourceTree = "<group>";
+		};
+		FC247303278206960088B132 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				51C985B12780C49A0057B89F /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		FCDAB2562781C80700ADEB24 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				FCDAB2542781B7D500ADEB24 /* Recipe.swift */,
+				FCF6A36E2782393F0024F0DA /* Сontributor.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -82,6 +92,7 @@
 			children = (
 				51C985A82780C4990057B89F /* AppDelegate.swift */,
 				51C985AA2780C4990057B89F /* SceneDelegate.swift */,
+				51C985B62780C49A0057B89F /* Info.plist */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -157,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCF6A36F2782393F0024F0DA /* Сontributor.swift in Sources */,
 				51C985AD2780C4990057B89F /* ViewController.swift in Sources */,
 				51C985A92780C4990057B89F /* AppDelegate.swift in Sources */,
 				51C985AB2780C4990057B89F /* SceneDelegate.swift in Sources */,
@@ -309,8 +321,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4ARG8W2BQX;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CookBookApp/Info.plist;
+				INFOPLIST_FILE = CookBookApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -336,8 +349,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4ARG8W2BQX;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CookBookApp/Info.plist;
+				INFOPLIST_FILE = CookBookApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

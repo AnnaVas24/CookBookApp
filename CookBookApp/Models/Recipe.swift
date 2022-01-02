@@ -9,24 +9,23 @@ struct Recipe {
     let name: String
     let descriprion: String
     let photo: String
-    
+    let mainFood: Food
     let time: String
-    let totalCalorie: Int
     
     static func getRecipes() -> [Recipe] {
-        return [
+        [
             Recipe(name: "",
                    descriprion: "",
                    photo: "",
-                   time: "",
-                   totalCalorie: 0)
+                   mainFood: Food.chiсken(name: "", photo: ""),
+                   time: "")
         ]
     }
 }
 
-struct Food {
-    let name: String
-    let photo: String?
-    let calorie: Int
+enum Food {
+    case meat(name: String, photo: String)
+    case chiсken(name: String, photo: String)
+    case fish(name: String, photo: String)
 }
 
