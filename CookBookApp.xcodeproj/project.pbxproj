@@ -13,6 +13,7 @@
 		51C985B02780C4990057B89F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51C985AE2780C4990057B89F /* Main.storyboard */; };
 		51C985B22780C49A0057B89F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51C985B12780C49A0057B89F /* Assets.xcassets */; };
 		51C985B52780C49A0057B89F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51C985B32780C49A0057B89F /* LaunchScreen.storyboard */; };
+		51C985BD278204390057B89F /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C985BC278204390057B89F /* RecipeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		51C985B12780C49A0057B89F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51C985B42780C49A0057B89F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51C985B62780C49A0057B89F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51C985BC278204390057B89F /* RecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +61,10 @@
 				51C985A82780C4990057B89F /* AppDelegate.swift */,
 				51C985AA2780C4990057B89F /* SceneDelegate.swift */,
 				51C985AC2780C4990057B89F /* ViewController.swift */,
+				51C985BC278204390057B89F /* RecipeViewController.swift */,
 				51C985AE2780C4990057B89F /* Main.storyboard */,
-				51C985B12780C49A0057B89F /* Assets.xcassets */,
 				51C985B32780C49A0057B89F /* LaunchScreen.storyboard */,
+				51C985B12780C49A0057B89F /* Assets.xcassets */,
 				51C985B62780C49A0057B89F /* Info.plist */,
 			);
 			path = CookBookApp;
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51C985BD278204390057B89F /* RecipeViewController.swift in Sources */,
 				51C985AD2780C4990057B89F /* ViewController.swift in Sources */,
 				51C985A92780C4990057B89F /* AppDelegate.swift in Sources */,
 				51C985AB2780C4990057B89F /* SceneDelegate.swift in Sources */,
