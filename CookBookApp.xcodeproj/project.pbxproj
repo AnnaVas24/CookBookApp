@@ -80,15 +80,31 @@
 		51C985A72780C4990057B89F /* CookBookApp */ = {
 			isa = PBXGroup;
 			children = (
-				FC31B7E92782606100E572FF /* Models */,
 				51566AC82782436700186A69 /* App */,
-				51C985AC2780C4990057B89F /* ViewController.swift */,
-				51C985BC278204390057B89F /* RecipeViewController.swift */,
-				51C985AE2780C4990057B89F /* Main.storyboard */,
-				51C985B32780C49A0057B89F /* LaunchScreen.storyboard */,
+				FC31B7E92782606100E572FF /* Models */,
 				51566AC9278243D700186A69 /* Resources */,
+				846DAEF227836337005DFC40 /* Storyboards */,
+				846DAEF1278362FB005DFC40 /* ViewControllers */,
 			);
 			path = CookBookApp;
+			sourceTree = "<group>";
+		};
+		846DAEF1278362FB005DFC40 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				51C985AC2780C4990057B89F /* ViewController.swift */,
+				51C985BC278204390057B89F /* RecipeViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		846DAEF227836337005DFC40 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				51C985AE2780C4990057B89F /* Main.storyboard */,
+				51C985B32780C49A0057B89F /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 		FC31B7E92782606100E572FF /* Models */ = {
