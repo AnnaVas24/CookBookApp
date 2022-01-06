@@ -12,7 +12,7 @@
         <!--Food-->
         <scene sceneID="hft-Dr-LQ3">
             <objects>
-                <tableViewController id="nxH-T5-xTZ" sceneMemberID="viewController">
+                <tableViewController id="nxH-T5-xTZ" customClass="PickFoodViewController" customModule="CookBookApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="Ypu-Qk-piy">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -44,7 +44,7 @@
         <!--Recipes-->
         <scene sceneID="huZ-cS-8pX">
             <objects>
-                <tableViewController id="w2G-Yb-tgd" sceneMemberID="viewController">
+                <tableViewController id="w2G-Yb-tgd" customClass="PickRecipeViewController" customModule="CookBookApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="z5t-KI-Q4s">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -180,7 +180,7 @@
         <!--Team Members-->
         <scene sceneID="dUD-8U-CEv">
             <objects>
-                <tableViewController id="EZE-h0-vRi" sceneMemberID="viewController">
+                <tableViewController id="EZE-h0-vRi" customClass="TeamMemberViewController" customModule="CookBookApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="PxH-Z0-lT1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

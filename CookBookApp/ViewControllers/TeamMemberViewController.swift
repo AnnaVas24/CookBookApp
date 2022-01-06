@@ -1,19 +1,16 @@
 //
-//  ViewController.swift
+//  TeamMemberViewController.swift
 //  CookBookApp
 //
-//  Created by Vasichko Anna on 01.01.2022.
+//  Created by packovv on 04.01.2022.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class TeamMemberViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
 }
-
