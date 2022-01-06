@@ -15,7 +15,7 @@ struct Contributor {
         "\(name) \(surname)"
     }
     
-    static func getContributor() -> [Contributor] {
+    static func getContributors() -> [Contributor] {
         [
             Contributor(name: "Anna",
                         surname: "Vasichko",
