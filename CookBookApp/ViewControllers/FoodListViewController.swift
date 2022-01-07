@@ -12,7 +12,7 @@ class FoodListViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.rowHeight = 80
+        tableView.rowHeight = cellRowHeight
     }
 
     // MARK: - Table view data source
