@@ -30,8 +30,9 @@ class ContributorsListViewController: UITableViewController {
         content.text = contributor.fullname
         content.secondaryText = contributor.position
         content.image = UIImage(named: contributor.emoji)
-        content.imageProperties.cornerRadius = tableView.rowHeight / 2
         cell.contentConfiguration = content
+        cell.selectionStyle = .none
+        
         return cell
     }
     
