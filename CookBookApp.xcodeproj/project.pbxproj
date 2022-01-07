@@ -17,6 +17,7 @@
 		84508CE82788857D00FFB754 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84508CE72788857D00FFB754 /* TabBarController.swift */; };
 		84508CEA278888ED00FFB754 /* RecipesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84508CE9278888ED00FFB754 /* RecipesListViewController.swift */; };
 		84508CED2788894100FFB754 /* ContributorsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84508CEC2788894100FFB754 /* ContributorsListViewController.swift */; };
+		846AFAF42788BBA500810539 /* ConstantValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846AFAF32788BBA500810539 /* ConstantValue.swift */; };
 		FCF919DE2782648B005899FC /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF919DD2782648B005899FC /* Recipe.swift */; };
 		FCF919E02782649C005899FC /* Contributor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF919DF2782649C005899FC /* Contributor.swift */; };
 /* End PBXBuildFile section */
@@ -34,6 +35,7 @@
 		84508CE72788857D00FFB754 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		84508CE9278888ED00FFB754 /* RecipesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesListViewController.swift; sourceTree = "<group>"; };
 		84508CEC2788894100FFB754 /* ContributorsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContributorsListViewController.swift; sourceTree = "<group>"; };
+		846AFAF32788BBA500810539 /* ConstantValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantValue.swift; sourceTree = "<group>"; };
 		FCF919DD2782648B005899FC /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		FCF919DF2782649C005899FC /* Contributor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contributor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				51C985B12780C49A0057B89F /* Assets.xcassets */,
+				846AFAF32788BBA500810539 /* ConstantValue.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -98,11 +101,11 @@
 		846DAEF1278362FB005DFC40 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				84508CEC2788894100FFB754 /* ContributorsListViewController.swift */,
 				51C985AC2780C4990057B89F /* FoodListViewController.swift */,
+				84508CE9278888ED00FFB754 /* RecipesListViewController.swift */,
 				51C985BC278204390057B89F /* RecipeViewController.swift */,
 				84508CE72788857D00FFB754 /* TabBarController.swift */,
-				84508CE9278888ED00FFB754 /* RecipesListViewController.swift */,
-				84508CEC2788894100FFB754 /* ContributorsListViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				84508CEA278888ED00FFB754 /* RecipesListViewController.swift in Sources */,
 				51C985BD278204390057B89F /* RecipeViewController.swift in Sources */,
 				FCF919E02782649C005899FC /* Contributor.swift in Sources */,
+				846AFAF42788BBA500810539 /* ConstantValue.swift in Sources */,
 				84508CED2788894100FFB754 /* ContributorsListViewController.swift in Sources */,
 				51C985AD2780C4990057B89F /* FoodListViewController.swift in Sources */,
 				84508CE82788857D00FFB754 /* TabBarController.swift in Sources */,
