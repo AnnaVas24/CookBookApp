@@ -63,7 +63,7 @@ struct Recipe {
     }
 }
 
-enum Food {
+enum Food: Hashable {
     case meat(name: String, photo: String)
     case chiсken(name: String, photo: String)
     case fish(name: String, photo: String)

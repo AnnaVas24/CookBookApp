@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		51C985A92780C4990057B89F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C985A82780C4990057B89F /* AppDelegate.swift */; };
 		51C985AB2780C4990057B89F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C985AA2780C4990057B89F /* SceneDelegate.swift */; };
-		51C985AD2780C4990057B89F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C985AC2780C4990057B89F /* ViewController.swift */; };
+		51C985AD2780C4990057B89F /* FoodListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C985AC2780C4990057B89F /* FoodListViewController.swift */; };
 		51C985B02780C4990057B89F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51C985AE2780C4990057B89F /* Main.storyboard */; };
 		51C985B22780C49A0057B89F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51C985B12780C49A0057B89F /* Assets.xcassets */; };
 		51C985B52780C49A0057B89F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51C985B32780C49A0057B89F /* LaunchScreen.storyboard */; };
 		51C985BD278204390057B89F /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C985BC278204390057B89F /* RecipeViewController.swift */; };
+		84508CE82788857D00FFB754 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84508CE72788857D00FFB754 /* TabBarController.swift */; };
+		84E6208D27845FF400AF6F96 /* RecipeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6208C27845FF400AF6F96 /* RecipeListViewController.swift */; };
+		84E6208F2784646900AF6F96 /* ContributorsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6208E2784646900AF6F96 /* ContributorsListViewController.swift */; };
 		FCF919DE2782648B005899FC /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF919DD2782648B005899FC /* Recipe.swift */; };
 		FCF919E02782649C005899FC /* Contributor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF919DF2782649C005899FC /* Contributor.swift */; };
 /* End PBXBuildFile section */
@@ -22,12 +25,15 @@
 		51C985A52780C4990057B89F /* CookBookApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookBookApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51C985A82780C4990057B89F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51C985AA2780C4990057B89F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		51C985AC2780C4990057B89F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		51C985AC2780C4990057B89F /* FoodListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListViewController.swift; sourceTree = "<group>"; };
 		51C985AF2780C4990057B89F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		51C985B12780C49A0057B89F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51C985B42780C49A0057B89F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51C985B62780C49A0057B89F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51C985BC278204390057B89F /* RecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
+		84508CE72788857D00FFB754 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		84E6208C27845FF400AF6F96 /* RecipeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListViewController.swift; sourceTree = "<group>"; };
+		84E6208E2784646900AF6F96 /* ContributorsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContributorsListViewController.swift; sourceTree = "<group>"; };
 		FCF919DD2782648B005899FC /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		FCF919DF2782649C005899FC /* Contributor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contributor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,15 +86,34 @@
 		51C985A72780C4990057B89F /* CookBookApp */ = {
 			isa = PBXGroup;
 			children = (
-				FC31B7E92782606100E572FF /* Models */,
 				51566AC82782436700186A69 /* App */,
-				51C985AC2780C4990057B89F /* ViewController.swift */,
-				51C985BC278204390057B89F /* RecipeViewController.swift */,
-				51C985AE2780C4990057B89F /* Main.storyboard */,
-				51C985B32780C49A0057B89F /* LaunchScreen.storyboard */,
+				FC31B7E92782606100E572FF /* Models */,
 				51566AC9278243D700186A69 /* Resources */,
+				846DAEF227836337005DFC40 /* Storyboards */,
+				846DAEF1278362FB005DFC40 /* ViewControllers */,
 			);
 			path = CookBookApp;
+			sourceTree = "<group>";
+		};
+		846DAEF1278362FB005DFC40 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				51C985AC2780C4990057B89F /* FoodListViewController.swift */,
+				84E6208C27845FF400AF6F96 /* RecipeListViewController.swift */,
+				51C985BC278204390057B89F /* RecipeViewController.swift */,
+				84E6208E2784646900AF6F96 /* ContributorsListViewController.swift */,
+				84508CE72788857D00FFB754 /* TabBarController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		846DAEF227836337005DFC40 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				51C985AE2780C4990057B89F /* Main.storyboard */,
+				51C985B32780C49A0057B89F /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 		FC31B7E92782606100E572FF /* Models */ = {
@@ -173,10 +198,13 @@
 			files = (
 				51C985BD278204390057B89F /* RecipeViewController.swift in Sources */,
 				FCF919E02782649C005899FC /* Contributor.swift in Sources */,
-				51C985AD2780C4990057B89F /* ViewController.swift in Sources */,
+				51C985AD2780C4990057B89F /* FoodListViewController.swift in Sources */,
+				84508CE82788857D00FFB754 /* TabBarController.swift in Sources */,
 				51C985A92780C4990057B89F /* AppDelegate.swift in Sources */,
+				84E6208D27845FF400AF6F96 /* RecipeListViewController.swift in Sources */,
 				51C985AB2780C4990057B89F /* SceneDelegate.swift in Sources */,
 				FCF919DE2782648B005899FC /* Recipe.swift in Sources */,
+				84E6208F2784646900AF6F96 /* ContributorsListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +353,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CookBookApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -351,8 +380,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CookBookApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -368,6 +398,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Anna-Vasichko.CookBookApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
