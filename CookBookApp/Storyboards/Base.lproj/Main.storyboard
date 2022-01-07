@@ -163,7 +163,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="K8f-Rn-Zlu">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="YgT-wt-2Qk" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="YgT-wt-2Qk" customClass="TabBarController" customModule="CookBookApp" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="MiJ-OW-jSr"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="YLe-xB-WT0">

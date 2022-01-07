@@ -62,3 +62,4 @@ enum Food: Hashable {
     case fish(name: String, photo: String)
 }
 
+
